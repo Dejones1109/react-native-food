@@ -61,7 +61,7 @@ const MainNavigator = createStackNavigator(
       }
     })
   }
-); 
+);
 
 /* const Drawer = createDrawerNavigator();
 
@@ -99,7 +99,7 @@ const DrawerStack = createDrawerNavigator(
     </NavigationContainer>
   )
 } */
- 
+
 export default AppContainer = createAppContainer(DrawerStack);
 
 console.disableYellowBox = true;
